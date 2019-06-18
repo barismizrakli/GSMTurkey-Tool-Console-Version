@@ -58,7 +58,7 @@ echo          %[LYELLOW]%"BAZI SECENEKLER ROOTLU CIHAZLAR ICIN GECERLIDIR"%[WHIT
 
 echo ******************************************************************
 
-set /p option=Seáiminizi yazçn [1-24] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-22] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==13 goto bir
 if /I %option%==2 goto iki
 if /I %option%==3 goto rebootmenu
@@ -246,7 +246,7 @@ echo    %[LYELLOW]% 2.  IKINCI ADIM ( AYIKLAMA ) %[WHITE]%         | cmdcolor
 echo    %[LRED]% 3.  UCUNCU ADIM ( PORT ) %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 4.  DORDUNCU ADIM ( PAKETLE )%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 5.  ANA MENU'YE DON    %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-5] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-5] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto twrprecoverysartlari
 if /I %option%==2 goto ikinciadimtwrpport
 if /I %option%==3 goto ucuncuadim
@@ -289,7 +289,7 @@ echo %[LCYAN]%PORTLAYICIYA GERI DONUN VE IKINCI ADIMA GECIN%[WHITE]% | cmdcolor
 echo     %[LMAGENTA]%1.  RECOVERY IMAJ OLUSTUR %[WHITE]%                 | cmdcolor
 echo    %[LYELLOW]% 2.  PORTLAYICIYA GERI DON %[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 3.  ANA MENU'YE DON    %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto imajolustur
 if /I %option%==2 goto twrpportlayici
 if /I %option%==3 goto start
@@ -311,7 +311,7 @@ echo     %[LMAGENTA]%1.  DESEN KILIDINI KIR %[WHITE]%                 | cmdcolor
 echo    %[LYELLOW]% 2.  RECOVERY MODE AL %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 3.  CIHAZI YENIDEN BASLAT%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 4.  ANA MENU'YE DON    %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-4] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-4] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto desenikir
 if /I %option%==2 goto recoveryreboot
 if /I %option%==3 goto rebootsystem
@@ -332,7 +332,7 @@ echo    %[LYELLOW]% 2.  FASTBOOT %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 3.  EDL MODE%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 4.  SISTEM %[WHITE]%         | cmdcolor
 echo    %[LRED]% 5.  ANA MENU'YE DON %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-4] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-4] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto recoveryreboot
 if /I %option%==2 goto fastbootmode
 if /I %option%==3 goto rebootedl
@@ -397,7 +397,7 @@ echo     %[LMAGENTA]%7.  KENDIM PARTITION GIRERIM %[WHITE]%                 | cm
 echo    %[LYELLOW]% 8.  FASTBOOT MODE AL %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 9.  CIHAZI YENIDEN BASLAT%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 10.  ANA MENU'YE DON    %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-10] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-10] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto systemsifirla
 if /I %option%==2 goto recoveryreboot
 if /I %option%==3 goto factoryreset
@@ -497,7 +497,7 @@ echo     %[LMAGENTA]%1.  ROOT AT / SUPERSU V2.82 %[WHITE]%                 | cmd
 echo    %[LYELLOW]% 2.  RECOVERY MODE AL %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 3.  CIHAZI YENIDEN BASLAT%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 4.  ANA MENU'YE DON    %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-4] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-4] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto supersu
 if /I %option%==2 goto recoveryreboot
 if /I %option%==3 goto rebootsystem
@@ -515,7 +515,7 @@ echo %[LCYAN]%ARDINDAN ASAGIDAN ISLEM SECIN%[WHITE]% | cmdcolor
 echo     %[LMAGENTA]%1.  KILIDI KALDIR %[WHITE]%                 | cmdcolor
 echo    %[LYELLOW]% 2.  CIHAZI YENIDEN BASLAT %[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 3.  ANA MENU'YE DON      %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto miaccountsil
 if /I %option%==2 goto rebootsystem
 if /I %option%==3 goto start
@@ -636,7 +636,7 @@ echo %[LBLUE]%Bizi Tercih Ettiginiz Icin Tesekkurler.%[WHITE]% | cmdcolor
 pause
 exit
 echo(
-echo %[LRED]%%option% geáerli bir seáenek deßil. LÅtfen tekrar deneyin! %[WHITE]% | cmdcolor
+echo %[LRED]%%option% ge‚Ä°erli bir se‚Ä°enek de¬ßil. L¬Åtfen tekrar deneyin! %[WHITE]% | cmdcolor
 pause
 goto MAIN_TR
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -650,7 +650,7 @@ echo     %[LMAGENTA]%1.  RECOVERY TEK SEFERLIK YUKLE%[WHITE]%                 | 
 echo    %[LYELLOW]% 2.  RECOVERY KALICI YUKLE%[WHITE]%         | cmdcolor
 echo     %[LGREEN]%3.  ANA MENU'YE GIT%[WHITE]%         | cmdcolor
 echo %[LYELLOW]%RECOVERY'I ANA DIZINE ATIP ADINI %[LRED]% "recovery.img YAPINIZ" .%[WHITE]% | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto recoverytek
 if /I %option%==2 goto recoverykalici
 if /I %option%==3 goto start
@@ -700,7 +700,7 @@ title OEM KIDILI ISLEMLERI @ BARISMIZRAKLI
 echo  %[LMAGENTA]%1.  OEM KILIDINI AC %[WHITE]%         | cmdcolor
 echo  %[LYELLOW]%2.  OEM KILIDINI KAPAT %[WHITE]%         | cmdcolor
 echo  %[LGREEN]%3.  ANA MENUYE GIT%[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto ac
 if /I %option%==2 goto kapat
 if /I %option%==3 goto start
@@ -724,7 +724,7 @@ echo %[LCYAN]%DIKKAT! BAZI CIHAZLAR STOCK RECOVERY OLMADIGI ZAMANLARDA OEM KILID
 echo  %[LBLUE]%1.  STOCK RECOVERY KURULU DEGIL %[WHITE]%         | cmdcolor
 echo  %[LGREEN]%2.  STOCK RECOVERY KURULU %[WHITE]%         | cmdcolor
 echo  %[LMAGENTA]%3. ANA MENUYE GIT%[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto bir
 if /I %option%==2 goto 3
 if /I %option%==3 goto start
@@ -738,7 +738,7 @@ fastboot oem lock
 echo %[LCYAN]%OEM KILIDI KAPATILDI%[WHITE]% | cmdcolor
 echo  %[LBLUE]%1.  CIHAZI AC %[WHITE]%         | cmdcolor
 echo  %[LBLUE]%2.  ANA MENU'YE DON %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto cihaziac
 if /I %option%==2 goto menu
 pause
@@ -769,7 +769,7 @@ echo %[LCYAN]%2 CESIT LOG ALABILIRSINIZ%[WHITE]% | cmdcolor
 echo %[LRED]%1.  ADB LOGCAT %[WHITE]%         | cmdcolor
 echo %[LMAGENTA]%2.  ADB DMESG %[WHITE]%         | cmdcolor
 echo %[LGREEN]%3.  ANA MENU'YE DON%[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto adblogcat
 if /I %option%==2 goto adbdmesg
 if /I %option%==3 goto start
@@ -820,7 +820,7 @@ cls
 echo  %[LMAGENTA]%1. 32 BIT DRIVER %[WHITE]%         | cmdcolor
 echo  %[LMAGENTA]%2. 64 BIT DRIVER %[WHITE]%         | cmdcolor
 echo  %[LGREEN]%  3. ANA MENU'YE DON%[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto 32bit
 if /I %option%==2 goto 64bit
 if /I %option%==3 goto start
@@ -848,7 +848,7 @@ echo  %[LGREEN]% FASTBOOT BAGLI OLMALIDIR %[WHITE]%         | cmdcolor
 echo  %[LMAGENTA]%1. FASTBOOT MODE AL %[WHITE]%         | cmdcolor
 echo  %[LCYAN]%2. KILIDI KIR %[WHITE]%         | cmdcolor
 echo  %[LGREEN]%3. ANA MENU'YE DON%[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto fastbootmode
 if /I %option%==2 goto kilidikir
 if /I %option%==3 goto start
@@ -873,7 +873,7 @@ echo     %[LMAGENTA]%1.   ROM'U YUKLE %[WHITE]%                 | cmdcolor
 echo    %[LYELLOW]% 2.  RECOVERY MODE AL %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 3.  CIHAZI YENIDEN BASLAT%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 4.  ANA MENU'YE DON    %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-4] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-4] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto customromukur
 if /I %option%==2 goto recoveryreboot
 if /I %option%==3 goto rebootsystem
@@ -894,7 +894,7 @@ echo     %[LMAGENTA]%1.  DESEN KILIDINI KIR %[WHITE]%                 | cmdcolor
 echo    %[LYELLOW]% 2.  RECOVERY MODE AL %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 3.  CIHAZI YENIDEN BASLAT%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 4.  ANA MENU'YE DON    %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-4] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-4] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto desenikir
 if /I %option%==2 goto recoveryreboot
 if /I %option%==3 goto rebootsystem
@@ -914,7 +914,7 @@ echo    %[LYELLOW]% 2.  FASTBOOT %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 3.  EDL MODE%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 4.  SISTEM %[WHITE]%         | cmdcolor
 echo    %[LRED]% 5.  ANA MENU'YE DON %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-4] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-4] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto recoveryreboot
 if /I %option%==2 goto fastbootmode
 if /I %option%==3 goto rebootedl
@@ -1002,7 +1002,7 @@ echo    %[LGREEN]% 3.  XIAOMI MI ACCOUNT SIFIRLAMA %[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 4.  CIHAZA ROOT AT %[WHITE]%         | cmdcolor
 echo    %[LRED]% 5.  ANA MENU'YE DON %[WHITE]%         | cmdcolor
 echo %[LYELLOW]%"V2 SURUMUNDE%[LRED]% DEHSET OZELLIKLERIN %[LGREEN]%EKLENMESI PLANLANDI"%[WHITE]% | cmdcolor
-set /p option=Seáiminizi yazçn [1-5] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-5] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto imajolustur
 if /I %option%==2 goto testekrani
 if /I %option%==3 goto miaccountsifirla
@@ -1020,7 +1020,7 @@ echo     %[LMAGENTA]%1.  ROOT AT / SUPERSU V2.82 %[WHITE]%                 | cmd
 echo    %[LYELLOW]% 2.  RECOVERY MODE AL %[WHITE]%         | cmdcolor
 echo    %[LGREEN]% 3.  CIHAZI YENIDEN BASLAT%[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 4.  ANA MENU'YE DON    %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-4] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-4] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto supersu
 if /I %option%==2 goto recoveryreboot
 if /I %option%==3 goto rebootsystem
@@ -1038,7 +1038,7 @@ echo %[LCYAN]%ARDINDAN ASAGIDAN ISLEM SECIN%[WHITE]% | cmdcolor
 echo     %[LMAGENTA]%1.  KILIDI KALDIR %[WHITE]%                 | cmdcolor
 echo    %[LYELLOW]% 2.  CIHAZI YENIDEN BASLAT %[WHITE]%         | cmdcolor
 echo    %[LCYAN]% 3.  ANA MENU'YE DON      %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1-3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1-3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto miaccountsil
 if /I %option%==2 goto rebootsystem
 if /I %option%==3 goto start
@@ -1154,7 +1154,7 @@ echo %[LBLUE]%Bizi Tercih Ettiginiz Icin Tesekkurler.%[WHITE]% | cmdcolor
 pause
 exit
 echo(
-echo %[LRED]%%option% geáerli bir seáenek deßil. LÅtfen tekrar deneyin! %[WHITE]% | cmdcolor
+echo %[LRED]%%option% ge‚Ä°erli bir se‚Ä°enek de¬ßil. L¬Åtfen tekrar deneyin! %[WHITE]% | cmdcolor
 pause
 goto MAIN_TR
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -1167,7 +1167,7 @@ echo     %[LMAGENTA]%1.  Recovery Tek Seferlik Yukle%[WHITE]%                 | 
 echo    %[LYELLOW]% 2.  Recovery Kalici Yukle%[WHITE]%         | cmdcolor
 echo     %[LGREEN]%3.  Ust Menuye Git%[WHITE]%         | cmdcolor
 echo %[LYELLOW]%Recovery'i Ana Dizine Ekleyiniz. Adini %[LRED]% "recovery.img Yapiniz" .%[WHITE]% | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto recoverytek
 if /I %option%==2 goto recoverykalici
 if /I %option%==3 goto start
@@ -1218,7 +1218,7 @@ cls
 echo  %[LMAGENTA]%1.  Oem Kilidini Ac %[WHITE]%         | cmdcolor
 echo  %[LYELLOW]%2.  Oem Kilidini Kapat %[WHITE]%         | cmdcolor
 echo  %[LGREEN]%3.  Ust Menuye Git%[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto ac
 if /I %option%==2 goto kapat
 if /I %option%==3 goto start
@@ -1239,7 +1239,7 @@ cls
 echo %[LCYAN]%Dikkat ! Kapatmadan once stock recovery kurmak ZORUNDASINIZ. AKSI HALDE CIHAZINIZ KOTU DURUMA DUSER%[WHITE]% | cmdcolor
 echo  %[LBLUE]%1.  Stock Recovery Kurulu Degil %[WHITE]%         | cmdcolor
 echo  %[LGREEN]%2.  Stock Recovery Kurulu %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto bir
 if /I %option%==2 goto 3
 pause
@@ -1251,7 +1251,7 @@ fastboot oem lock
 echo %[LCYAN]%OEM Kilidi Kapatildi%[WHITE]% | cmdcolor
 echo  %[LBLUE]%1.  Cihazimi Ac %[WHITE]%         | cmdcolor
 echo  %[LBLUE]%2.  Ana Menuye Don %[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto cihaziac
 if /I %option%==2 goto menu
 pause
@@ -1280,7 +1280,7 @@ echo %[LCYAN]%2 Adet Log Alabilirsiniz%[WHITE]% | cmdcolor
 echo %[LRED]%1.  Adb LogCat %[WHITE]%         | cmdcolor
 echo %[LMAGENTA]%2.  Adb Dmesg Logu %[WHITE]%         | cmdcolor
 echo %[LGREEN]%3.  Ust Menuye Git%[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto adblogcat
 if /I %option%==2 goto adbdmesg
 if /I %option%==3 goto start
@@ -1332,7 +1332,7 @@ cls
 echo  %[LMAGENTA]%1. 32 Bit Driver %[WHITE]%         | cmdcolor
 echo  %[LMAGENTA]%2. 64 Bit Driver %[WHITE]%         | cmdcolor
 echo  %[LGREEN]%  3. Ust Menuye Git%[WHITE]%         | cmdcolor
-set /p option=Seáiminizi yazçn [1,2,3] ve ENTER'a basçn: || set option="0"
+set /p option=Se‚Ä°iminizi yaz¬çn [1,2,3] ve ENTER'a bas¬çn: || set option="0"
 if /I %option%==1 goto 32bit
 if /I %option%==2 goto 64bit
 if /I %option%==3 goto start
